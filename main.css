@@ -10,15 +10,11 @@ body {
   overflow-x: hidden;
 }
 
-section {
-  position: relative;
-}
-
 .hero-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
   background-image: url("img/home_1920.jpg");
   background-position: center;
   background-size: cover;
@@ -32,10 +28,13 @@ section {
 }
 
 .hero-wrapper {
+  position: relative;
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  z-index: 1;
+  z-index: 30;
 }
 .hero-wrapper a {
   display: inline-block;
@@ -70,7 +69,8 @@ section {
   font-size: 22px;
 }
 
-.whiteBG {
-  height: 90vh;
-  background-color: rgb(235, 230, 230);
+.second-topic {
+  position: relative;
+  height: 100vh;
+  background-color: rgb(229, 235, 226);
 } /*# sourceMappingURL=main.css.map *//*# sourceMappingURL=main.css.map */
