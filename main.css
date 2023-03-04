@@ -7,6 +7,7 @@
 body {
   background-color: #333;
   font-family: "Roboto", Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 section {
@@ -34,28 +35,42 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid rgb(12, 224, 12);
   z-index: 1;
+}
+.hero-wrapper a {
+  display: inline-block;
+  margin: 30px 20px;
+  padding: 20px 60px;
+  background-color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: #00ade9;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
 }
 
 .hero-text {
   margin: 10px;
   color: #fff;
-  font-weight: bold;
-  letter-spacing: 1px;
   text-align: center;
-  border: 1px solid red;
 }
 
 .first-hero-text {
-  font-size: 62px;
+  padding: 24px 0 10px;
+  font-size: 72px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .second-hero-text {
+  padding: 15px 0 30px;
   font-size: 22px;
 }
 
 .whiteBG {
-  min-height: 90vh;
+  height: 90vh;
   background-color: rgb(235, 230, 230);
 } /*# sourceMappingURL=main.css.map *//*# sourceMappingURL=main.css.map */
