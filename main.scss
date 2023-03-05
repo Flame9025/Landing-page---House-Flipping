@@ -34,7 +34,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	z-index: 30;
+
 	a {
 		display: inline-block;
 		margin: 30px 20px;
@@ -69,8 +69,56 @@ body {
 	font-size: 22px;
 }
 
-.second-topic {
+// Druga strona - biała z napisami:
+
+.second-section {
 	position: relative;
 	height: 100vh;
-	background-color: rgb(229, 235, 226);
-} /*# sourceMappingURL=main.css.map */
+	width: 100vw; 
+	background-color: #fff;
+	border: 3px solid lime;
+}
+
+.text-container {
+	margin-top: 6%;
+	// padding: 50px;
+	border: 1px solid red;
+	p {
+		text-align: center;
+	}
+}
+
+.second-section-text1 {
+	font-size: 42px;
+	font-weight: bold;
+}
+
+.second-section-text2 {
+	font-size: 24px;
+	margin: 30px 0;
+}
+
+.second-section-text3 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.icon-container {
+	margin: 20px;
+	img {
+		width: 100px;
+		height: 100px;
+		border: 2px dotted red;
+	}
+	p {
+		font-size: 24px;
+	}
+}
+
+.third-section {
+	position: relative;
+	height: 100vh;
+	background-color: steelblue;
+}
+
+/*# sourceMappingURL=main.css.map */
