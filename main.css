@@ -77,10 +77,14 @@ body {
 }
 
 .text-container {
-  margin-top: 6%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 62vh;
   border: 1px solid red;
 }
 .text-container p {
+  display: block;
   text-align: center;
 }
 
@@ -91,7 +95,8 @@ body {
 
 .second-section-text2 {
   font-size: 24px;
-  margin: 30px 0;
+  font-weight: 300;
+  margin: 30px 0 60px;
 }
 
 .second-section-text3 {
@@ -100,15 +105,28 @@ body {
 }
 
 .icon-container {
-  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px 40px;
+  border: 2px solid lime;
 }
-.icon-container img {
+.icon-container p {
+  font-size: 24px;
+}
+.icon-container i {
+  text-align: center;
+  color: #038ab8;
   width: 100px;
   height: 100px;
   border: 2px dotted red;
 }
-.icon-container p {
-  font-size: 24px;
+
+.container-item {
+  text-align: center;
+  margin: 20px 30px;
+  padding: 10px;
+  border: 2px dashed orange;
 }
 
 .third-section {

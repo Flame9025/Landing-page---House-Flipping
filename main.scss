@@ -74,16 +74,20 @@ body {
 .second-section {
 	position: relative;
 	height: 100vh;
-	width: 100vw; 
+	width: 100vw;
 	background-color: #fff;
 	border: 3px solid lime;
 }
 
 .text-container {
-	margin-top: 6%;
-	// padding: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 62vh;
 	border: 1px solid red;
+
 	p {
+		display: block;
 		text-align: center;
 	}
 }
@@ -95,7 +99,8 @@ body {
 
 .second-section-text2 {
 	font-size: 24px;
-	margin: 30px 0;
+	font-weight: 300;
+	margin: 30px 0 60px;
 }
 
 .second-section-text3 {
@@ -103,17 +108,38 @@ body {
 	font-weight: bold;
 }
 
-.icon-container {
-	margin: 20px;
-	img {
+.icon-container {display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 20px 40px;
+	border: 2px solid lime;
+
+	p {
+		font-size: 24px;
+	}
+
+	i {text-align: center;
+		// font-size: 64px;
+		// font-weight: bold;
+		color:#038ab8;
 		width: 100px;
 		height: 100px;
 		border: 2px dotted red;
 	}
-	p {
-		font-size: 24px;
-	}
 }
+
+
+.container-item {
+text-align: center;
+margin: 20px 30px;
+padding: 10px;
+border: 2px dashed orange;
+}
+
+
+
+
+// Trzecia strona - stalowy niebieski:
 
 .third-section {
 	position: relative;
