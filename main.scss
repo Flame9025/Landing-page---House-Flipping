@@ -1,3 +1,5 @@
+$primaryColor: #00AED9;
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -44,7 +46,7 @@ body {
 		text-decoration: none;
 		font-weight: bold;
 		font-size: 16px;
-		color: #00ade9;
+		color: $primaryColor;
 		border: none;
 		border-radius: 30px;
 		cursor: pointer;
@@ -73,7 +75,7 @@ body {
 
 .second-section {
 	position: relative;
-	height: 100vh;
+	height: 110vh;
 	width: 100vw;
 	background-color: #fff;
 	border: 3px solid lime;
@@ -108,36 +110,49 @@ body {
 	font-weight: bold;
 }
 
-.icon-container {display: flex;
+.icon-container {
+	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: center;
 	margin: 20px 40px;
 	border: 2px solid lime;
 
 	p {
-		font-size: 24px;
+		font-size: 30px;
+		font-weight: bold;
+		margin: 20px 0;
 	}
 
-	i {text-align: center;
-		// font-size: 64px;
-		// font-weight: bold;
-		color:#038ab8;
+	i {
+		text-align: center;
+		color: $primaryColor;
 		width: 100px;
 		height: 100px;
 		border: 2px dotted red;
+		font-size: 72px;
+		stroke: 1px;
 	}
 }
 
-
 .container-item {
-text-align: center;
-margin: 20px 30px;
-padding: 10px;
-border: 2px dashed orange;
+	text-align: center;
+	margin: 20px 30px;
+	padding: 10px;
+	border: 2px dashed orange;
 }
 
-
-
+.feather {
+	width: 85px;
+	height: 85px;
+	stroke: $primaryColor;
+	stroke-width: 1;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	fill: none;
+	padding: 5px;
+	border: 3px solid $primaryColor;
+	border-radius: 25px;
+  }
 
 // Trzecia strona - stalowy niebieski:
 

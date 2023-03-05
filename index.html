@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Strona zapisu</title>
-    <script src="https://kit.fontawesome.com/3d92c2ae2f.js" crossorigin="anonymous"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-
+    <script src="https://unpkg.com/feather-icons"></script>
 
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
 
-
+    <!-- Strona pierwsza - Hero image  -->
 
     <section>
         <div class="hero-image"></div>
@@ -34,6 +34,7 @@
         </div>
     </section>
 
+    <!-- Strona druga - ikony  -->
 
     <section class="second-section">
         <div>
@@ -50,29 +51,31 @@
 
             <div class="icon-container">
                 <div class="container-item">
-                    <i class="fa-solid fa-clock fa-6x"></i><br>
+                    <i data-feather="clock"></i><br>
                     <p>nasze wieloletnie doświadczenie</p>
                 </div>
                 <div class="container-item">
-                    <i class="fa-solid fa-money-bill-wave fa-6x"></i><br>
+                    <i data-feather="dollar-sign"></i><br>
                     <p>doświadczenia naszych klientów</p>
                 </div>
                 <div class="container-item">
-                    <i class="fa-solid fa-magnifying-glass-chart fa-6x"></i><br>
+                    <i data-feather="trending-up"></i><br>
                     <p>analizę sytuacji rynkowej</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Strona trzecia - w budowie -->
 
     <section class="third-section">
         <div></div>
     </section>
 
-
-
-
+    <!-- Ikony SVG z feathericons.com/ -->
+    <script>
+        feather.replace()
+    </script>
 </body>
 
 </html>

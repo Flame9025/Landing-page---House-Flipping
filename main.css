@@ -44,7 +44,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: 16px;
-  color: #00ade9;
+  color: #00AED9;
   border: none;
   border-radius: 30px;
   cursor: pointer;
@@ -70,7 +70,7 @@ body {
 
 .second-section {
   position: relative;
-  height: 100vh;
+  height: 110vh;
   width: 100vw;
   background-color: #fff;
   border: 3px solid lime;
@@ -107,19 +107,23 @@ body {
 .icon-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   margin: 20px 40px;
   border: 2px solid lime;
 }
 .icon-container p {
-  font-size: 24px;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px 0;
 }
 .icon-container i {
   text-align: center;
-  color: #038ab8;
+  color: #00AED9;
   width: 100px;
   height: 100px;
   border: 2px dotted red;
+  font-size: 72px;
+  stroke: 1px;
 }
 
 .container-item {
@@ -127,6 +131,19 @@ body {
   margin: 20px 30px;
   padding: 10px;
   border: 2px dashed orange;
+}
+
+.feather {
+  width: 85px;
+  height: 85px;
+  stroke: #00AED9;
+  stroke-width: 1;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  padding: 5px;
+  border: 3px solid #00AED9;
+  border-radius: 25px;
 }
 
 .third-section {
