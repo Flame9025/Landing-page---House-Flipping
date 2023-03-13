@@ -148,10 +148,33 @@ body {
 	position: relative;
 }
 
-.man2 {
+.foto {
 	img {
 		display: block;
 		width: 100vw;
+		color: #fff;
+		background-color: #fff;
+	}
+}
+
+.foto-text {
+	position: absolute;
+	top: 90px;
+	left: 50%;
+	transform: translateX(-33%);
+	width: 450px;
+	padding: 30px;
+	color: #000;
+	letter-spacing: 0.6px;
+	background-color: rgba(255, 255, 255);
+
+	p:first-child {
+		font-size: 24px;
+		font-weight: bold;
+	}
+
+	p {
+		font-size: 18px;
 	}
 }
 

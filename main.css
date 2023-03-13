@@ -139,9 +139,30 @@ body {
   position: relative;
 }
 
-.man2 img {
+.foto img {
   display: block;
   width: 100vw;
+  color: #fff;
+  background-color: #fff;
+}
+
+.foto-text {
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  transform: translateX(-33%);
+  width: 450px;
+  padding: 30px;
+  color: #000;
+  letter-spacing: 0.6px;
+  background-color: rgb(255, 255, 255);
+}
+.foto-text p:first-child {
+  font-size: 24px;
+  font-weight: bold;
+}
+.foto-text p {
+  font-size: 18px;
 }
 
 .fourth {
