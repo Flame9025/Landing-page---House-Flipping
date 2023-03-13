@@ -142,11 +142,24 @@ body {
 	border-radius: 25px;
 }
 
-// Trzecia strona - stalowy niebieski:
+// Trzecia strona - zdjęcie prowadzących:
 
 .third-section {
 	position: relative;
-	height: 100vh;
+}
+
+.man2 {
+	img {
+		display: block;
+		width: 100vw;
+	}
+}
+
+// Czwarta strona - w budowie:
+
+.fourth {
+	position: relative;
+	height: 50vh;
 	background-color: steelblue;
 }
 

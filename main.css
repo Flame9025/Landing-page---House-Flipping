@@ -137,7 +137,16 @@ body {
 
 .third-section {
   position: relative;
-  height: 100vh;
+}
+
+.man2 img {
+  display: block;
+  width: 100vw;
+}
+
+.fourth {
+  position: relative;
+  height: 50vh;
   background-color: steelblue;
 }
 
