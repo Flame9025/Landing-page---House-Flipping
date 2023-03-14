@@ -6,10 +6,14 @@ $primaryColor: #00aed9;
 	padding: 0;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
+	overflow-x: hidden;
 	background-color: #333;
 	font-family: "Roboto", Arial, sans-serif;
-	overflow-x: hidden;
 }
 
 .hero-image {
@@ -45,11 +49,16 @@ body {
 		text-align: center;
 		text-decoration: none;
 		font-weight: bold;
-		font-size: 16px;
+		font-size: 18px;
 		color: $primaryColor;
 		border: none;
 		border-radius: 30px;
 		cursor: pointer;
+		transition: font-size 0.7s;
+	}
+
+	a:hover {
+		font-size: 20px;
 	}
 }
 
@@ -57,6 +66,7 @@ body {
 	margin: 10px;
 	color: #fff;
 	text-align: center;
+	margin-bottom: 40px;
 }
 
 .first-hero-text {
@@ -180,10 +190,67 @@ body {
 
 // Czwarta strona - w budowie:
 
-.fourth {
+.site-four {
 	position: relative;
-	height: 50vh;
-	background-color: steelblue;
+	height: 100vh;
+	background-color: rgb(43, 119, 190);
+}
+
+.bg-box {
+	display: block;
+}
+
+.bg-image-money {
+	// position: relative;
+	top: 0;
+	height: 100vh;
+	width: 100vw;
+	background-image: url("img/money_1920.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.bg-cover-money {
+	position: absolute;
+	top: 0;
+	height: 100vh;
+	width: 100vw;
+	background-image: linear-gradient(rgba(26, 40, 120, 0.7), rgba(10, 143, 196, 0.7));
+}
+
+.form-box {
+	position: absolute;
+	top: 10vh;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 600px;
+	height: 80vh;
+	padding: 40px;
+	background-color: rgba(255, 255, 255, 0.7);
+	p {
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	button {
+		display: inline-block;
+		margin: 30px 20px;
+		padding: 20px 60px;
+		background-color: #fff;
+		text-align: center;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 18px;
+		color: $primaryColor;
+		border: 2px solid #000;
+		border-radius: 30px;
+		cursor: pointer;
+		transition: font-size 0.7s;
+	}
+
+	button:hover {
+		font-size: 20px;
+	}
 }
 
 /*# sourceMappingURL=main.css.map */
