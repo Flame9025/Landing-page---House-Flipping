@@ -210,13 +210,14 @@ body {
   height: 65vh;
   padding: 80px;
   background-color: rgba(255, 255, 255, 0.8);
+  overflow-y: auto;
 }
 
-.form-box-text {
+.form-box-content {
   margin: 0 auto;
   text-align: center;
 }
-.form-box-text p {
+.form-box-content p {
   display: inline-block;
   padding: 15px 0;
   margin-bottom: 20px;
@@ -224,8 +225,9 @@ body {
   font-weight: bold;
   border-bottom: 3px solid steelblue;
 }
-.form-box-text input {
+.form-box-content input {
   display: block;
+  position: relative;
   padding: 10px;
   margin: 20px 0;
   height: 55px;
@@ -235,12 +237,15 @@ body {
   background-color: transparent;
   border: 1px solid #666;
 }
-.form-box-text input:focus {
+.form-box-content input:focus {
   border: 2px solid steelblue;
   outline: none;
 }
-.form-box-text #sendBtn {
+.form-box-content #sendBtn {
+  display: block;
+  padding: 10px;
   margin: 40px 0 0 auto;
+  height: 55px;
   width: 165px;
   background-color: rgba(255, 255, 255, 0.519);
   text-align: center;
@@ -253,7 +258,7 @@ body {
   cursor: pointer;
   transition: box-shadow 0.5s;
 }
-.form-box-text #sendBtn:hover {
+.form-box-content #sendBtn:hover {
   box-shadow: 5px 5px 7px steelblue;
 }
 

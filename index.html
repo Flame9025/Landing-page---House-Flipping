@@ -92,21 +92,22 @@
             <div class="bg-cover-money"></div>
         </div>
         <div class="form-box">
-            <div class="form-box-text">
+            <div class="form-box-content">
                 <p>Zapisz się na kurs!</p>
 
-
-                <form action="https://formsubmit.io/send/testmarek001@gmail.com" method="POST">
+                <!-- Dane formularza otrzymuję jako e-mail dzięki: https://formsubmit.io/ -->
+                <div class="form-input">
+                <form action="https://formsubmit.io/send/50032921-5110-4b7f-b632-7e5b4a68c269" method="POST">
                     <input name="_redirect" type="hidden" id="name"
                         value="http://127.0.0.1:5500/Strona_zapisu/index.html">
+                    <input name="_formsubmit_id" type="text" style="display:none" />
 
-                    <input type="hidden" name="_formsubmit_id">
+                    <input type="text" name="name" placeholder="Imię i nazwisko *" required />
+                    <input type="text" name="email" placeholder="Adres e-mail *" required />
+                    <input type="tel" name="phone" placeholder="Nr telefonu *" required />
 
-                    <input type="text" name="name" placeholder="Imię i nazwisko" />
-                    <input type="text" name="email" placeholder="Adres e-mail" />
-                    <input type="tel" name="phone" placeholder="Nr telefonu" />
-                    <input type="submit" value="Wyślij!" id="sendBtn" />
-                </form>
+                    <button type="submit" id="sendBtn">Wyślij!</button> 
+                </form></div>
             </div>
         </div>
 

@@ -227,9 +227,10 @@ body {
 	height: 65vh;
 	padding: 80px;
 	background-color: rgba(255, 255, 255, 0.8);
+	overflow-y: auto;
 }
 
-.form-box-text {
+.form-box-content {
 	margin: 0 auto;
 	text-align: center;
 
@@ -244,6 +245,7 @@ body {
 
 	input {
 		display: block;
+		position: relative;
 		padding: 10px;
 		margin: 20px 0;
 		height: 55px;
@@ -260,7 +262,10 @@ body {
 	}
 
 	#sendBtn {
+		display: block;
+		padding: 10px;
 		margin: 40px 0 0 auto;
+		height: 55px;
 		width: 165px;
 		background-color: rgba(255, 255, 255, 0.519);
 		text-align: center;
