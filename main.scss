@@ -225,7 +225,7 @@ body {
 	transform: translateX(-50%);
 	width: 500px;
 	height: 65vh;
-	padding: 80px;
+	padding: 60px;
 	background-color: rgba(255, 255, 255, 0.8);
 	overflow-y: auto;
 }
@@ -259,6 +259,23 @@ body {
 	input:focus {
 		border: 2px solid $steelblue;
 		outline: none;
+	}
+	.umowa {
+		display: flex;
+		flex-direction: row;
+		justify-content: start;
+		font-size: 14px;
+	}
+
+	#agreement {
+		display: block;
+		margin: 0 7px 0 0;
+		width: 18px;
+		height: 18px;
+	}
+
+	a {
+		color: blue;
 	}
 
 	#sendBtn {

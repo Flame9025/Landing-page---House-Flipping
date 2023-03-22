@@ -97,17 +97,25 @@
 
                 <!-- Dane formularza otrzymuję jako e-mail dzięki: https://formsubmit.io/ -->
                 <div class="form-input">
-                <form action="https://formsubmit.io/send/50032921-5110-4b7f-b632-7e5b4a68c269" method="POST">
-                    <input name="_redirect" type="hidden" id="name"
-                        value="http://127.0.0.1:5500/Strona_zapisu/index.html">
-                    <input name="_formsubmit_id" type="text" style="display:none" />
+                    <form action="https://formsubmit.io/send/50032921-5110-4b7f-b632-7e5b4a68c269" method="POST">
+                        <input name="_redirect" type="hidden" id="name"
+                            value="http://127.0.0.1:5500/Strona_zapisu/index.html">
+                        <input name="_formsubmit_id" type="text" style="display:none" />
 
-                    <input type="text" name="name" placeholder="Imię i nazwisko *" required />
-                    <input type="text" name="email" placeholder="Adres e-mail *" required />
-                    <input type="tel" name="phone" placeholder="Nr telefonu *" required />
+                        <input type="text" name="name" placeholder="Imię i nazwisko *" required minlength="3"
+                            maxlength="15" />
+                        <input type="email" name="email" placeholder="Adres e-mail *" required />
+                        <input type="tel" name="phone" placeholder="Nr telefonu *" required minlength="7"
+                            maxlength="12" />
+                        <div class="umowa">
+                            <input type="checkbox" name="agreement" value="yes" id="agreement" required>
+                            <label for="agreement">Przeczytałem i akceptuję <a
+                                    href="https://www.youtube.com/watch?v=xvFZjo5PgG0">regulamin zapisu</a> </label>
+                        </div>
 
-                    <button type="submit" id="sendBtn">Wyślij!</button> 
-                </form></div>
+                        <button type="submit" id="sendBtn">Wyślij!</button>
+                    </form>
+                </div>
             </div>
         </div>
 

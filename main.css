@@ -208,7 +208,7 @@ body {
   transform: translateX(-50%);
   width: 500px;
   height: 65vh;
-  padding: 80px;
+  padding: 60px;
   background-color: rgba(255, 255, 255, 0.8);
   overflow-y: auto;
 }
@@ -240,6 +240,21 @@ body {
 .form-box-content input:focus {
   border: 2px solid steelblue;
   outline: none;
+}
+.form-box-content .umowa {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  font-size: 14px;
+}
+.form-box-content #agreement {
+  display: block;
+  margin: 0 7px 0 0;
+  width: 18px;
+  height: 18px;
+}
+.form-box-content a {
+  color: blue;
 }
 .form-box-content #sendBtn {
   display: block;
