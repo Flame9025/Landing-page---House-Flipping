@@ -59,10 +59,9 @@ body {
 }
 
 .hero-text {
-  margin: 10px;
+  margin: 10px 10px 40px 10px;
   color: #fff;
   text-align: center;
-  margin-bottom: 40px;
 }
 
 .first-hero-text {
@@ -203,11 +202,13 @@ body {
 
 .form-box {
   position: absolute;
-  top: 15vh;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   width: 500px;
-  height: 65vh;
+  min-height: -webkit-min-content;
+  min-height: -moz-min-content;
+  min-height: min-content;
   padding: 60px;
   background-color: rgba(255, 255, 255, 0.8);
   overflow-y: auto;
