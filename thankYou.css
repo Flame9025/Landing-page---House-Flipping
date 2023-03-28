@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #333;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.site-thankYou {
+  position: relative;
+  height: 100vh;
+  background-color: rgb(43, 119, 190);
+}
+
+.bg-box {
+  display: block;
+}
+
+.bg-image-money2 {
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("img/city2_1920.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-cover-money {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(26, 40, 120, 0.7), rgba(10, 143, 196, 0.7));
+}
+
+.box {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  min-height: -webkit-min-content;
+  min-height: -moz-min-content;
+  min-height: min-content;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  overflow-y: auto;
+}
+
+.box-content {
+  margin: 0 auto;
+  text-align: center;
+}
+.box-content p:nth-child(1) {
+  display: inline-block;
+  padding: 15px 0;
+  margin-bottom: 25px;
+  font-size: 33px;
+  font-weight: bold;
+  border-bottom: 3px solid steelblue;
+}
+.box-content p {
+  font-size: 18px;
+}
+.box-content p.quote {
+  margin: 30px 0;
+  font-weight: bold;
+  font-style: italic;
+}/*# sourceMappingURL=thankYou.css.map */
